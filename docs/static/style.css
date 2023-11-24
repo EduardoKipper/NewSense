@@ -9,6 +9,7 @@ html{
 body{
     scroll-snap-type: y mandatory;
     font-family: var(--font-1);
+    background-color: var(--main-bg-color);
 }
 
 h1{
@@ -88,19 +89,42 @@ section {
     text-align: justify;
 }
 
+.img_section{
+    height: 88vh;
+}
 section#sobreNos{
     padding-left: 15vw;
+    background: linear-gradient(
+    360deg,
+    #EAEAEA 0% 53%,
+    var(--main-bg-color) 53% 100%)
+    ;
 }
 
 section#problema{
     padding-right: 15vw;
+    background: linear-gradient(
+    180deg,
+    #EAEAEA 0% 35%,
+    var(--main-bg-color) 35% 100%)
+    ;
 }
 section#nicho_propostaValor{
     padding-left: 15vw;
+    background: linear-gradient(
+    360deg,
+    #EAEAEA 0% 52%,
+    var(--main-bg-color) 52% 100%)
+    ;
 }
 
 section#equipe{
     padding: 12vh 15vw 0 15vw;
+    background: linear-gradient(
+        180deg,
+        #EAEAEA 0 20%,
+        var(--main-bg-color) 20% 100%)
+        ;
 }
 .equipe__lista{
     display: flex;
