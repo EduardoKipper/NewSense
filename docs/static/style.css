@@ -90,7 +90,16 @@ section {
 }
 
 .img_section{
-    height: 88vh;
+    height: 84vh;
+}
+.img1{
+    border-radius: 2vw 0 0 2vw;
+}
+.img2{
+    border-radius: 0 2vw 2vw 0;
+}
+.img3{
+    border-radius: 2vw 0 0 2vw ;
 }
 section#sobreNos{
     padding-left: 15vw;
